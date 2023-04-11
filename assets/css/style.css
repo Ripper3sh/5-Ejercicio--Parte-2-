@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    display: flex;
+    width: 900px;
+    height: 100px;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+.banner img{
+    height: 100px;
+    width: 1800px;
+    margin-top: 20px;
+}
+nav{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    background-color: black;
+    text-align: center;
+    word-spacing: 100px;
+}
+nav a{
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;    
+}
+
+.foto_2 img{
+    height: 300px;
+    float: left;
+}
+aside div{
+    float: right;
+    text-align: center;
+    line-height: 50px;
+}
